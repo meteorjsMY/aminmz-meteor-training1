@@ -6,4 +6,5 @@
 
 meteor-platform
 autopublish
-insecure
+fortawesome:fontawesome
+less

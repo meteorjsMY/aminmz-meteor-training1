@@ -1,0 +1,24 @@
+<head>
+  <title>Senarai Personel</title>
+</head>
+
+<body>
+
+  <div class="container">
+      <header>
+        <h2>Senarai Personel</h2>
+      </header>
+  </div>
+  <button class="save">save</button>
+
+  <ul>
+    {{> personnel}}
+  </ul>
+
+</body>
+
+<template name="personnel">
+  {{#each data}}
+  <li>{{name}} ({{age}}) - <i class="fa fa-pencil edit"></i> <i class="fa fa-trash remove"></i></li>
+  {{/each}}
+</template>
